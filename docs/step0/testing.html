@@ -1,0 +1,1346 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>运行实验框架 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-codeblock-label/block.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-click-reveal/click_reveal.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-interactive/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-intopic-toc/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../step1/arch.html" />
+    
+    
+    <link rel="prev" href="env.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    实验简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="errate.html">
+            
+                <a href="errate.html">
+            
+                    
+                    勘误表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">前置准备</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    配环境、跑测试
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="riscv_env.html">
+            
+                <a href="riscv_env.html">
+            
+                    
+                    RISC-V 环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="riscv.html">
+            
+                <a href="riscv.html">
+            
+                    
+                    RISC-V 的工具链使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="env.html">
+            
+                <a href="env.html">
+            
+                    
+                    实验框架环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.4" data-path="testing.html">
+            
+                <a href="testing.html">
+            
+                    
+                    运行实验框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage0：第一个编译器</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../step1/arch.html">
+            
+                <a href="../step1/arch.html">
+            
+                    
+                    MiniDecaf 编译器结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../step1/provided.html">
+            
+                <a href="../step1/provided.html">
+            
+                    
+                    已提供的语法特性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" >
+            
+                <span>
+            
+                    
+                    step1：仅一个 return 的 main 函数
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="../step1/example.html">
+            
+                <a href="../step1/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" data-path="../step1/visitor.html">
+            
+                <a href="../step1/visitor.html">
+            
+                    
+                    Visitor 模式速成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.3" data-path="../step1/spec.html">
+            
+                <a href="../step1/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage1：常量表达式</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" >
+            
+                <span>
+            
+                    
+                    step2：一元操作
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../step2/intro.html">
+            
+                <a href="../step2/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../step2/example.html">
+            
+                <a href="../step2/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../step2/spec.html">
+            
+                <a href="../step2/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" >
+            
+                <span>
+            
+                    
+                    step3：加减乘除模
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="../step3/intro.html">
+            
+                <a href="../step3/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="../step3/example.html">
+            
+                <a href="../step3/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3" data-path="../step3/precedence.html">
+            
+                <a href="../step3/precedence.html">
+            
+                    
+                    优先级和结合性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.4" data-path="../step3/spec.html">
+            
+                <a href="../step3/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" >
+            
+                <span>
+            
+                    
+                    step4：比较和逻辑表达式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.3.1" data-path="../step4/intro.html">
+            
+                <a href="../step4/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.2" data-path="../step4/example.html">
+            
+                <a href="../step4/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.3" data-path="../step4/spec.html">
+            
+                <a href="../step4/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage2：变量和语句</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" >
+            
+                <span>
+            
+                    
+                    step5：局部变量和赋值
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../step5/intro.html">
+            
+                <a href="../step5/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../step5/example.html">
+            
+                <a href="../step5/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="../step5/spec.html">
+            
+                <a href="../step5/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" >
+            
+                <span>
+            
+                    
+                    step6：if 语句和条件表达式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="../step6/intro.html">
+            
+                <a href="../step6/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" data-path="../step6/example.html">
+            
+                <a href="../step6/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3" data-path="../step6/spec.html">
+            
+                <a href="../step6/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Parser-Stage</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" >
+            
+                <span>
+            
+                    
+                    parser-stage：手工自顶向下语法分析器
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../step-parser/intro.html">
+            
+                <a href="../step-parser/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="../step-parser/example.html">
+            
+                <a href="../step-parser/example.html">
+            
+                    
+                    框架介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" data-path="../step-parser/spec.html">
+            
+                <a href="../step-parser/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage3：作用域和循环</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" >
+            
+                <span>
+            
+                    
+                    step7：作用域和块语句
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1" data-path="../step7/intro.html">
+            
+                <a href="../step7/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2" data-path="../step7/example.html">
+            
+                <a href="../step7/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3" data-path="../step7/dataflow.html">
+            
+                <a href="../step7/dataflow.html">
+            
+                    
+                    数据流分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.4" data-path="../step7/spec.html">
+            
+                <a href="../step7/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" >
+            
+                <span>
+            
+                    
+                    step8：循环语句
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.2.1" data-path="../step8/intro.html">
+            
+                <a href="../step8/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.2" data-path="../step8/example.html">
+            
+                <a href="../step8/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.3" data-path="../step8/spec.html">
+            
+                <a href="../step8/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage4（升级）：函数和全局变量</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" >
+            
+                <span>
+            
+                    
+                    step9：函数
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1.1" data-path="../step9/intro.html">
+            
+                <a href="../step9/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.2" data-path="../step9/example.html">
+            
+                <a href="../step9/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.3" data-path="../step9/spec.html">
+            
+                <a href="../step9/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" >
+            
+                <span>
+            
+                    
+                    step10：全局变量
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.2.1" data-path="../step10/intro.html">
+            
+                <a href="../step10/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2.2" data-path="../step10/example.html">
+            
+                <a href="../step10/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2.3" data-path="../step10/spec.html">
+            
+                <a href="../step10/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage5（升级）：数组</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" >
+            
+                <span>
+            
+                    
+                    step11：数组
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.1.1" data-path="../step11/intro.html">
+            
+                <a href="../step11/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.2" data-path="../step11/example.html">
+            
+                <a href="../step11/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.3" data-path="../step11/spec.html">
+            
+                <a href="../step11/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" >
+            
+                <span>
+            
+                    
+                    step12：为数组添加更多支持
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.2.1" data-path="../step12/intro.html">
+            
+                <a href="../step12/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.2" data-path="../step12/example.html">
+            
+                <a href="../step12/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.3" data-path="../step12/spec.html">
+            
+                <a href="../step12/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">参考资料</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../../REFERENCE.html">
+            
+                <a href="../../REFERENCE.html">
+            
+                    
+                    参考资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >运行实验框架</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x63A8;&#x8350;&#xFF1A;&#x8FD0;&#x884C;&#x5B9E;&#x9A8C;&#x6846;&#x67B6;">&#x63A8;&#x8350;&#xFF1A;&#x8FD0;&#x884C;&#x5B9E;&#x9A8C;&#x6846;&#x67B6;</h2>
+<p>&#x914D;&#x597D;&#x73AF;&#x5883;&#x4EE5;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x5F3A;&#x70C8;&#x63A8;&#x8350;&#x4F60;&#x6784;&#x5EFA;&#x8FD0;&#x884C;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x7684;&#x5B9E;&#x9A8C;&#x6846;&#x67B6;&#x521D;&#x59CB;&#x4EE3;&#x7801;&#x3002;</p>
+<blockquote>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x6211;&#x4EEC;&#x4F1A;&#x7528;&#x5230; git&#x3002;
+git &#x7684;&#x5B89;&#x88C5;&#x548C;&#x4F7F;&#x7528;&#x4F1A;&#x5728;&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;&#x8BFE;&#x4E0A;&#x8BB2;&#x8FF0;&#xFF0C;&#x540C;&#x5B66;&#x4EEC;&#x4E5F;&#x81EA;&#x884C;&#x67E5;&#x9605;&#x76F8;&#x5173;&#x8D44;&#x6599;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x53C2;&#x8003;<a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank">&#x8FD9;&#x91CC;</a> &#x3002;</p>
+</blockquote>
+<ol>
+<li><p>&#x6309;&#x7167;&#x672C;&#x6587;&#x6863;&#x7684;&#x524D;&#x51E0;&#x8282;&#xFF08;<a href="riscv_env.html">RISCV &#x73AF;&#x5883;&#x914D;&#x7F6E;</a>&#x548C;<a href="env.html">&#x5B9E;&#x9A8C;&#x6846;&#x67B6;&#x73AF;&#x5883;&#x914D;&#x7F6E;</a>&#xFF09;&#x914D;&#x7F6E;&#x597D;&#x5B9E;&#x9A8C;&#x73AF;&#x5883;&#x3002;</p>
+</li>
+<li><p>&#x52A9;&#x6559;&#x5DF2;&#x7ECF;&#x4E3A;&#x6BCF;&#x4F4D;&#x540C;&#x5B66;&#x5728; git.tsinghua.edu.cn &#x521B;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x4ED3;&#x5E93;&#xFF0C;&#x5176;&#x4E2D; minidecaf &#x7684;<a href="https://git.tsinghua.edu.cn/compiler-21/minidecaf-tests" target="_blank">&#x6D4B;&#x4F8B;&#x4ED3;&#x5E93;</a>&#x4E3A;&#x5176;&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x5B50;&#x6A21;&#x5757;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4EE5;&#x4E0B;&#x6307;&#x4EE4;&#x6765;&#x5728;&#x514B;&#x9686;&#x4E3B;&#x4ED3;&#x5E93;&#x7684;&#x540C;&#x65F6;&#x514B;&#x9686;&#x5B50;&#x6A21;&#x5757; <code>git clone --recursive &lt;repository&gt;</code>&#x3002;
+&#x7531;&#x4E8E;&#x6D4B;&#x4F8B;&#x4ED3;&#x5E93;&#x4F1A;&#x6709;&#x6240;&#x66F4;&#x65B0;&#xFF0C;&#x5728;&#x514B;&#x9686;&#x4E4B;&#x540E;&#x4F60;&#x9700;&#x8981;&#x5728;&#x4E3B;&#x4ED3;&#x5E93;&#x76EE;&#x5F55;&#x4E0B;&#x4F7F;&#x7528; <code>git submodule update --remote --merge</code> &#x6765;&#x624B;&#x52A8;&#x66F4;&#x65B0;&#x3002;</p>
+</li>
+</ol>
+<blockquote>
+<p>&#x6CE8;&#x610F;&#xFF1A;&#x7531;&#x4E8E;&#x5B50;&#x6A21;&#x5757;&#x4F7F;&#x7528; ssh &#x94FE;&#x63A5;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x5C06;&#x4F60;&#x7684; ssh &#x516C;&#x94A5;&#x6DFB;&#x52A0;&#x5230;&#x4F60;&#x7684; git.tsinghua &#x8D26;&#x53F7;&#x4E0A;&#xFF0C;&#x624D;&#x80FD;&#x5C06;&#x5176;&#x514B;&#x9686;&#x4E0B;&#x6765;&#x3002;</p>
+</blockquote>
+<ol>
+<li><p>&#x5982;&#x679C;&#x4F60;&#x4F7F;&#x7528;&#x7684;&#x662F; C++ &#x8BED;&#x8A00;&#x7684;&#x6846;&#x67B6;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x4F7F;&#x7528; <code>make</code> &#x6765;&#x7F16;&#x8BD1;&#x5B9E;&#x9A8C;&#x6846;&#x67B6;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x4E0B;&#x65B9;&#x4ED3;&#x5E93;&#x7684; <code>src/</code> &#x76EE;&#x5F55;&#x4E0B;&#x624B;&#x52A8; <code>make</code>&#xFF0C;&#x6216;&#x8005;&#x76F4;&#x63A5;&#x8FD0;&#x884C;&#x811A;&#x672C; <code>bash ./prepare.sh</code>&#x3002;</p>
+</li>
+<li><p>&#x6309;&#x7167;<a href="https://github.com/decaf-lang/minidecaf-tests" target="_blank">&#x6D4B;&#x4F8B;</a>&#x7684; README &#x8FD0;&#x884C;&#x6D4B;&#x8BD5; step1&#xFF0C;&#x5B9E;&#x9A8C;&#x6846;&#x67B6;&#x7ED9;&#x51FA;&#x7684;&#x521D;&#x59CB;&#x4EE3;&#x7801;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; step1 &#x7684;&#x6240;&#x6709;&#x6D4B;&#x4F8B;&#x3002;</p>
+</li>
+</ol>
+<p>&#x6D4B;&#x8BD5;&#x8FD0;&#x884C;&#x7684; <strong>&#x8F93;&#x51FA;&#x7ED3;&#x679C;</strong> &#x5927;&#x81F4;&#x5982;&#x4E0B;&#x3002;</p>
+<pre><code class="lang-bash">$ STEP_UNTIL=1 ./check.sh
+gcc found
+qemu found
+parallel found
+OK testcases/step1/multi_digit.c
+OK testcases/step1/newlines.c
+...... &#x5176;&#x4ED6;&#x6D4B;&#x8BD5;&#x70B9;&#xFF0C;&#x592A;&#x957F;&#x7701;&#x7565;
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="env.html" class="navigation navigation-prev " aria-label="Previous page: 实验框架环境配置">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../step1/arch.html" class="navigation navigation-next " aria-label="Next page: MiniDecaf 编译器结构">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"运行实验框架","level":"2.1.4","depth":2,"next":{"title":"MiniDecaf 编译器结构","level":"3.1","depth":1,"path":"docs/step1/arch.md","ref":"docs/step1/arch.md","articles":[]},"previous":{"title":"实验框架环境配置","level":"2.1.3","depth":2,"path":"docs/step0/env.md","ref":"docs/step0/env.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["hide-element","chapter-fold","katex","alerts","emphasize","mermaid-gb3","codeblock-label","code","search-pro","click-reveal","expandable-chapters-interactive","localized-footer","intopic-toc"],"pluginsConfig":{"chapter-fold":{},"emphasize":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"codeblock-label":{},"search-pro":{},"search":{},"localized-footer":{"filename":"gitalk.html","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"hide-element":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":1},"click-reveal":{},"highlight":{},"mermaid-gb3":{},"expandable-chapters-interactive":{},"alerts":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/step0/testing.md","mtime":"2023-03-20T07:41:26.973Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-03-20T07:42:15.687Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-click-reveal/click_reveal.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-interactive/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-intopic-toc/anchor.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-intopic-toc/gumshoe.polyfills.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-intopic-toc/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    <script src="../../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+

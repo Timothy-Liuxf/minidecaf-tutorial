@@ -1,0 +1,1551 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>通过例子学习 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-codeblock-label/block.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-click-reveal/click_reveal.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-interactive/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-intopic-toc/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="spec.html" />
+    
+    
+    <link rel="prev" href="intro.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    实验简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../step0/errate.html">
+            
+                <a href="../step0/errate.html">
+            
+                    
+                    勘误表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">前置准备</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    配环境、跑测试
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../step0/riscv_env.html">
+            
+                <a href="../step0/riscv_env.html">
+            
+                    
+                    RISC-V 环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../step0/riscv.html">
+            
+                <a href="../step0/riscv.html">
+            
+                    
+                    RISC-V 的工具链使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../step0/env.html">
+            
+                <a href="../step0/env.html">
+            
+                    
+                    实验框架环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../step0/testing.html">
+            
+                <a href="../step0/testing.html">
+            
+                    
+                    运行实验框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage0：第一个编译器</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../step1/arch.html">
+            
+                <a href="../step1/arch.html">
+            
+                    
+                    MiniDecaf 编译器结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../step1/provided.html">
+            
+                <a href="../step1/provided.html">
+            
+                    
+                    已提供的语法特性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" >
+            
+                <span>
+            
+                    
+                    step1：仅一个 return 的 main 函数
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="../step1/example.html">
+            
+                <a href="../step1/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" data-path="../step1/visitor.html">
+            
+                <a href="../step1/visitor.html">
+            
+                    
+                    Visitor 模式速成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.3" data-path="../step1/spec.html">
+            
+                <a href="../step1/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage1：常量表达式</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" >
+            
+                <span>
+            
+                    
+                    step2：一元操作
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../step2/intro.html">
+            
+                <a href="../step2/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../step2/example.html">
+            
+                <a href="../step2/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../step2/spec.html">
+            
+                <a href="../step2/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" >
+            
+                <span>
+            
+                    
+                    step3：加减乘除模
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="../step3/intro.html">
+            
+                <a href="../step3/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="../step3/example.html">
+            
+                <a href="../step3/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3" data-path="../step3/precedence.html">
+            
+                <a href="../step3/precedence.html">
+            
+                    
+                    优先级和结合性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.4" data-path="../step3/spec.html">
+            
+                <a href="../step3/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" >
+            
+                <span>
+            
+                    
+                    step4：比较和逻辑表达式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.3.1" data-path="../step4/intro.html">
+            
+                <a href="../step4/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.2" data-path="../step4/example.html">
+            
+                <a href="../step4/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.3" data-path="../step4/spec.html">
+            
+                <a href="../step4/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage2：变量和语句</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" >
+            
+                <span>
+            
+                    
+                    step5：局部变量和赋值
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../step5/intro.html">
+            
+                <a href="../step5/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../step5/example.html">
+            
+                <a href="../step5/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="../step5/spec.html">
+            
+                <a href="../step5/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" >
+            
+                <span>
+            
+                    
+                    step6：if 语句和条件表达式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="../step6/intro.html">
+            
+                <a href="../step6/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" data-path="../step6/example.html">
+            
+                <a href="../step6/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3" data-path="../step6/spec.html">
+            
+                <a href="../step6/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Parser-Stage</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" >
+            
+                <span>
+            
+                    
+                    parser-stage：手工自顶向下语法分析器
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../step-parser/intro.html">
+            
+                <a href="../step-parser/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="../step-parser/example.html">
+            
+                <a href="../step-parser/example.html">
+            
+                    
+                    框架介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" data-path="../step-parser/spec.html">
+            
+                <a href="../step-parser/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage3：作用域和循环</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" >
+            
+                <span>
+            
+                    
+                    step7：作用域和块语句
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1" data-path="../step7/intro.html">
+            
+                <a href="../step7/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2" data-path="../step7/example.html">
+            
+                <a href="../step7/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3" data-path="../step7/dataflow.html">
+            
+                <a href="../step7/dataflow.html">
+            
+                    
+                    数据流分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.4" data-path="../step7/spec.html">
+            
+                <a href="../step7/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" >
+            
+                <span>
+            
+                    
+                    step8：循环语句
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.2.1" data-path="../step8/intro.html">
+            
+                <a href="../step8/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.2" data-path="../step8/example.html">
+            
+                <a href="../step8/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.3" data-path="../step8/spec.html">
+            
+                <a href="../step8/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage4（升级）：函数和全局变量</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" >
+            
+                <span>
+            
+                    
+                    step9：函数
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1.1" data-path="intro.html">
+            
+                <a href="intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="8.1.2" data-path="example.html">
+            
+                <a href="example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.3" data-path="spec.html">
+            
+                <a href="spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" >
+            
+                <span>
+            
+                    
+                    step10：全局变量
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.2.1" data-path="../step10/intro.html">
+            
+                <a href="../step10/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2.2" data-path="../step10/example.html">
+            
+                <a href="../step10/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2.3" data-path="../step10/spec.html">
+            
+                <a href="../step10/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Stage5（升级）：数组</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" >
+            
+                <span>
+            
+                    
+                    step11：数组
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.1.1" data-path="../step11/intro.html">
+            
+                <a href="../step11/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.2" data-path="../step11/example.html">
+            
+                <a href="../step11/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.3" data-path="../step11/spec.html">
+            
+                <a href="../step11/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" >
+            
+                <span>
+            
+                    
+                    step12：为数组添加更多支持
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.2.1" data-path="../step12/intro.html">
+            
+                <a href="../step12/intro.html">
+            
+                    
+                    任务概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.2" data-path="../step12/example.html">
+            
+                <a href="../step12/example.html">
+            
+                    
+                    通过例子学习
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.3" data-path="../step12/spec.html">
+            
+                <a href="../step12/spec.html">
+            
+                    
+                    规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">参考资料</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../../REFERENCE.html">
+            
+                <a href="../../REFERENCE.html">
+            
+                    
+                    参考资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >通过例子学习</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="step9-&#x5B9E;&#x9A8C;&#x6307;&#x5BFC;">step9 &#x5B9E;&#x9A8C;&#x6307;&#x5BFC;</h1>
+<p>&#x672C;&#x5B9E;&#x9A8C;&#x6307;&#x5BFC;&#x4F7F;&#x7528;&#x7684;&#x4F8B;&#x5B50;&#x4E3A;&#xFF1A;</p>
+<pre><code class="lang-C"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">func</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span></span>;
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> </span>{ <span class="hljs-keyword">return</span> func(<span class="hljs-number">1</span>, <span class="hljs-number">2</span>); }
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">func</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span> </span>{ <span class="hljs-keyword">return</span> x + y; }
+</code></pre>
+<h2 id="&#x8BCD;&#x6CD5;&#x8BED;&#x6CD5;&#x5206;&#x6790;">&#x8BCD;&#x6CD5;&#x8BED;&#x6CD5;&#x5206;&#x6790;</h2>
+<p>&#x9488;&#x5BF9;&#x51FD;&#x6570;&#x7279;&#x6027;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x8BBE;&#x8BA1; AST &#x8282;&#x70B9;&#x6765;&#x8868;&#x793A;&#x5B83;&#xFF0C;&#x7ED9;&#x51FA;&#x7684;&#x53C2;&#x8003;&#x5B9A;&#x4E49;&#x5982;&#x4E0B;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>&#x8282;&#x70B9;</th>
+<th>&#x6210;&#x5458;</th>
+<th>&#x542B;&#x4E49;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Function</code></td>
+<td>&#x8FD4;&#x56DE;&#x7C7B;&#x578B; <code>return_type</code>&#xFF0C;&#x51FD;&#x6570;&#x540D; <code>ident</code>&#xFF0C;&#x53C2;&#x6570;&#x5217;&#x8868; <code>params</code>&#xFF0C;&#x51FD;&#x6570;&#x4F53; <code>body</code></td>
+<td>&#x51FD;&#x6570;</td>
+</tr>
+<tr>
+<td><code>Parameter</code></td>
+<td>&#x53C2;&#x6570;&#x7C7B;&#x578B; <code>var_type</code>&#xFF0C;&#x53D8;&#x91CF;&#x540D; <code>ident</code></td>
+<td>&#x51FD;&#x6570;&#x53C2;&#x6570;</td>
+</tr>
+<tr>
+<td><code>Call</code></td>
+<td>&#x8C03;&#x7528;&#x51FD;&#x6570;&#x540D; <code>ident</code>&#xFF0C;&#x53C2;&#x6570;&#x5217;&#x8868; <code>argument_list</code></td>
+<td>&#x51FD;&#x6570;&#x8C03;&#x7528;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x8BED;&#x4E49;&#x5206;&#x6790;">&#x8BED;&#x4E49;&#x5206;&#x6790;</h2>
+<p>&#x672C;&#x6B65;&#x9AA4;&#x4E2D;&#x5F15;&#x5165;&#x4E86;&#x51FD;&#x6570;&#xFF0C;&#x548C;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x7C7B;&#x4F3C;&#xFF0C;&#x4E0D;&#x5141;&#x8BB8;&#x8C03;&#x7528;&#x672A;&#x58F0;&#x660E;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x4E5F;&#x4E0D;&#x5141;&#x8BB8;&#x91CD;&#x590D;&#x5B9A;&#x4E49;&#x540C;&#x540D;&#x51FD;&#x6570;&#xFF08;&#x5141;&#x8BB8;&#x91CD;&#x590D;&#x58F0;&#x660E;&#xFF0C;&#x4F46;&#x8981;&#x6C42;&#x58F0;&#x660E;&#x7C7B;&#x578B;&#x4E00;&#x81F4;&#xFF09;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x5168;&#x5C40;&#x4F5C;&#x7528;&#x57DF;&#x7684;&#x7B26;&#x53F7;&#x8868;&#x91CC;&#x7EF4;&#x62A4;&#x51FD;&#x6570;&#x7B26;&#x53F7;&#x3002;&#x51FD;&#x6570;&#x7B26;&#x53F7;&#x5B58;&#x653E;&#x5728;&#x6808;&#x5E95;&#x7684;&#x5168;&#x5C40;&#x4F5C;&#x7528;&#x57DF;&#x4E2D;&#xFF0C;&#x5728;&#x904D;&#x5386; AST &#x6784;&#x5EFA;&#x7B26;&#x53F7;&#x8868;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x6808;&#x5E95;&#x7B26;&#x53F7;&#x8868;&#x4E00;&#x76F4;&#x5B58;&#x5728;&#xFF0C;&#x4E0D;&#x4F1A;&#x88AB;&#x5F39;&#x51FA;&#x3002;</p>
+<p>&#x6B64;&#x5916;&#xFF0C;&#x7531;&#x4E8E;&#x51FD;&#x6570;&#x4F53;&#x5185;&#x90E8;&#x9664;&#x4E86;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x4EE5;&#x5916;&#xFF0C;&#x8FD8;&#x6709;<strong>&#x51FD;&#x6570;&#x53C2;&#x6570;</strong>&#xFF08;argument&#xFF09;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x6211;&#x4EEC;&#x8FDB;&#x5165;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x5F00;&#x542F;&#x51FD;&#x6570;&#x4F53;&#x5C40;&#x90E8;&#x4F5C;&#x7528;&#x57DF;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x5C06;&#x6240;&#x6709;&#x7684;&#x53C2;&#x6570;&#x52A0;&#x8FDB;&#x8BE5;&#x4F5C;&#x7528;&#x57DF;&#x7684;&#x7B26;&#x53F7;&#x8868;&#x4E2D;&#x3002;&#x4E3E;&#x4F8B;&#x6765;&#x8BF4;&#xFF0C;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x5C06;&#x793A;&#x4F8B;&#x6539;&#x6210;&#xFF1A;</p>
+<pre><code class="lang-C"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">func</span><span class="hljs-params">(<span class="hljs-keyword">int</span> x, <span class="hljs-keyword">int</span> y)</span> </span>{ <span class="hljs-keyword">int</span> x = <span class="hljs-number">1</span>; <span class="hljs-keyword">return</span> x + y; }
+</code></pre>
+<p>&#x90A3;&#x4E48;&#x8BED;&#x4E49;&#x68C0;&#x67E5;&#x65F6;&#x5E94;&#x5F53;&#x62A5;&#x9519;&#x3002;</p>
+<h3 id="python-&#x6846;&#x67B6;">Python &#x6846;&#x67B6;</h3>
+<p><code>frontend/symbol/funcsymbol.py</code> &#x91CC;&#x5B9E;&#x73B0;&#x4E86;&#x51FD;&#x6570;&#x7B26;&#x53F7;&#x3002;</p>
+<h3 id="c-&#x6846;&#x67B6;">C++ &#x6846;&#x67B6;</h3>
+<p><code>symb/symbol.hpp</code> &#x4E2D; Function &#x7C7B;&#x8868;&#x793A;&#x51FD;&#x6570;&#x7B26;&#x53F7;&#x3002;<code>scope/scope.hpp</code> &#x4E2D;&#xFF0C;FuncScope &#x8868;&#x793A;&#x51FD;&#x6570;&#x4F5C;&#x7528;&#x57DF;&#x3002;</p>
+<h2 id="&#x4E2D;&#x95F4;&#x4EE3;&#x7801;&#x751F;&#x6210;">&#x4E2D;&#x95F4;&#x4EE3;&#x7801;&#x751F;&#x6210;</h2>
+<p>&#x4E3A;&#x4E86;&#x5B9E;&#x73B0;&#x51FD;&#x6570;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x8BBE;&#x8BA1;&#x4E24;&#x6761;&#x4E2D;&#x95F4;&#x4EE3;&#x7801;&#x6307;&#x4EE4;&#xFF0C;&#x5206;&#x522B;&#x8868;&#x793A;&#x8BBE;&#x7F6E;&#x53C2;&#x6570;&#x548C;&#x51FD;&#x6570;&#xFF0C;&#x7ED9;&#x51FA;&#x7684;&#x53C2;&#x8003;&#x5B9A;&#x4E49;&#x5982;&#x4E0B;&#xFF1A;</p>
+<blockquote>
+<p>&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;TAC &#x6307;&#x4EE4;&#x7684;&#x540D;&#x79F0;&#x53EA;&#x8981;&#x5728;&#x4F60;&#x7684;&#x5B9E;&#x73B0;&#x4E2D;&#x662F;&#x4E00;&#x81F4;&#x7684;&#x5373;&#x53EF;&#xFF0C;&#x5E76;&#x4E0D;&#x4E00;&#x5B9A;&#x8981;&#x548C;&#x6587;&#x6863;&#x4E00;&#x81F4;&#x3002;</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>&#x6307;&#x4EE4;</th>
+<th>&#x53C2;&#x6570;</th>
+<th>&#x542B;&#x4E49;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>PARAM</code></td>
+<td><code>T0</code></td>
+<td>&#x5C06; T0 &#x8BBE;&#x7F6E;&#x4E3A;&#x4E0B;&#x4E00;&#x4E2A;&#x53C2;&#x6570;</td>
+</tr>
+<tr>
+<td><code>CALL</code></td>
+<td><code>LABEL</code></td>
+<td>&#x8C03;&#x7528;&#x51FD;&#x6570; LABEL</td>
+</tr>
+</tbody>
+</table>
+<p>&#x5047;&#x8BBE;&#x6211;&#x4EEC;&#x6709;&#x82E5;&#x5E72;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x53EF;&#x4EE5;&#x4F9D;&#x6B21;&#x4F7F;&#x7528; PARAM &#x547D;&#x4EE4;&#x5C06;&#x5B83;&#x4EEC;&#x52A0;&#x5165;&#x53C2;&#x6570;&#x5217;&#x8868;&#x3002;&#x5728;&#x8C03;&#x7528;&#x51FD;&#x6570;&#x65F6;&#xFF0C;&#x8FD9;&#x4E9B;&#x53C2;&#x6570;&#x7684;&#x503C;&#x4F1A;&#x81EA;&#x52A8;&#x4F9D;&#x6B21;&#x6309;&#x987A;&#x5E8F;&#x88C5;&#x8F7D;&#x5230;&#x4E34;&#x65F6;&#x53D8;&#x91CF; _T0, _T1 ... &#x4E2D;&#x3002;&#x6BD4;&#x5982;&#x6211;&#x4EEC;&#x6709;&#x8FD9;&#x6837;&#x4E00;&#x6BB5; TAC &#x7A0B;&#x5E8F;&#xFF1A;</p>
+<pre><code class="lang-assembly">PARAM A
+PARAM B
+PARAM C
+XX = CALL XXX
+</code></pre>
+<p>&#x90A3;&#x4E48;&#xFF0C;&#x5728;&#x8FDB;&#x5165; XXX &#x51FD;&#x6570;&#x65F6;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;&#x6267;&#x884C;&#x4E86;&#xFF1A;</p>
+<pre><code class="lang-assembly">_T0 = A
+_T1 = B
+_T2 = C
+</code></pre>
+<p>&#x56E0;&#x6B64;&#xFF0C;&#x793A;&#x4F8B;&#x53EF;&#x4EE5;&#x5BF9;&#x5E94;&#x5982;&#x4E0B;&#x7684; TAC &#x7A0B;&#x5E8F;&#xFF1A;</p>
+<pre><code class="lang-assembly">func:
+    _T2 = ADD _T0, _T1
+    return _T2        # &#x53C2;&#x6570; x &#x548C; y &#x5206;&#x522B;&#x5BF9;&#x5E94; _T0, _T1
+main:
+    _T0 = 1
+    PARAM _T0         # &#x5C06; _T0 &#x7684;&#x503C;&#x4F5C;&#x4E3A;&#x53C2;&#x6570; x
+    _T1 = 2
+    PARAM _T1         # &#x5C06; _T1 &#x7684;&#x503C;&#x4F5C;&#x4E3A;&#x53C2;&#x6570; y
+    _T3 = CALL func   # &#x8C03;&#x7528;&#x51FD;&#x6570;
+    return _T3
+</code></pre>
+<p>&#x540C;&#x5B66;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x8FD9;&#x79CD;&#x53C2;&#x8003;&#x7684;&#x5B9E;&#x73B0;&#x5F62;&#x5F0F;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x81EA;&#x884C;&#x601D;&#x8003;&#x4F20;&#x53C2;&#x7684;&#x5904;&#x7406;&#x65B9;&#x6CD5;&#x3002;</p>
+<blockquote>
+<p>&#x5728; step9 &#x4E4B;&#x540E;&#xFF0C;C++ &#x6846;&#x67B6;&#x4E2D;&#x51FA;&#x73B0;&#x4E86;&#x65B0;&#x7684;&#x4E09;&#x5730;&#x5740;&#x7801;&#x6307;&#x4EE4;&#xFF08;PARAM&#x3001;CALL&#x7B49;&#xFF09;&#xFF0C;&#x56E0;&#x6B64;&#x4F60;&#x9700;&#x8981;&#x53C2;&#x8003; <code>tac/dataflow.cpp</code> &#x6587;&#x4EF6;&#x5F00;&#x59CB;&#x7684;&#x6CE8;&#x91CA;&#x4FEE;&#x6539;&#x76F8;&#x5E94;&#x6307;&#x4EE4;&#x7684;&#x6570;&#x636E;&#x6D41;&#x4FE1;&#x606F;&#xFF0C;&#x5177;&#x4F53;&#x7684;&#x4FEE;&#x6539;&#x65B9;&#x5F0F;&#x53D6;&#x51B3;&#x4E8E;&#x4F60;&#x5B9A;&#x4E49;&#x7684;&#x4E09;&#x5730;&#x5740;&#x7801;&#x6307;&#x4EE4;&#x7684;&#x8F93;&#x5165;&#x548C;&#x8F93;&#x51FA;&#x7279;&#x70B9;&#x3002;</p>
+</blockquote>
+<h2 id="&#x76EE;&#x6807;&#x4EE3;&#x7801;&#x751F;&#x6210;">&#x76EE;&#x6807;&#x4EE3;&#x7801;&#x751F;&#x6210;</h2>
+<pre><code class="lang-assembly">    .text
+    .global main
+
+func:
+    # start of prologue
+    addi sp, sp, -56
+    # end of prologue
+
+    # start of body
+    sw a0, 0(sp)
+    sw a1, 4(sp)
+    lw t0, 0(sp)
+    lw t1, 4(sp)
+    add t2, t0, t1
+    mv t0, t2
+    mv a0, t0
+    j func_exit
+    # end of body
+
+func_exit:
+    # start of epilogue
+    addi sp, sp, 56
+    # end of epilogue
+
+    ret
+
+main:
+    # start of prologue
+    addi sp, sp, -56
+    sw ra, 52(sp)
+    # end of prologue
+
+    # start of body
+    li t0, 1
+    li t1, 2
+    mv a0, t0
+    mv a1, t1
+    call func
+    mv t0, a0
+    mv a0, t0
+    j main_exit
+    # end of body
+
+main_exit:
+    # start of epilogue
+    lw ra, 52(sp)
+    addi sp, sp, 56
+    # end of epilogue
+
+    ret
+</code></pre>
+<p>&#x9996;&#x5148;&#x4F60;&#x9700;&#x8981;&#x53C2;&#x8003;&#x4E4B;&#x524D;&#x6B65;&#x9AA4;&#x4E2D;&#x5B9E;&#x73B0;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;<strong>&#x7FFB;&#x8BD1;&#x672C;&#x6B65;&#x9AA4;&#x4E2D;&#x65B0;&#x589E;&#x7684;&#x4E2D;&#x95F4;&#x4EE3;&#x7801;&#x6307;&#x4EE4;</strong>&#x3002;</p>
+<p>&#x63A5;&#x4E0B;&#x6765;&#x8BE6;&#x7EC6;&#x4ECB;&#x7ECD;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x7684;&#x6B65;&#x9AA4;&#x548C;&#x7EA6;&#x5B9A;&#xFF0C;&#x4EE5;&#x53CA;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x53CA;&#x8FD4;&#x56DE;&#x8FC7;&#x7A0B;&#x4E2D;&#x6808;&#x5E27;&#x7684;&#x53D8;&#x5316;&#x3002;</p>
+<h3 id="&#x51FD;&#x6570;&#x8C03;&#x7528;">&#x51FD;&#x6570;&#x8C03;&#x7528;</h3>
+<p>&#x7A0B;&#x5E8F;&#x4EE3;&#x7801;&#x91CC;&#x7684;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x8C03;&#x7528;&#xFF0C;&#x5305;&#x542B;&#x4E86;&#x4E0B;&#x9762;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x64CD;&#x4F5C;&#xFF1A;</p>
+<ol>
+<li>&#x51C6;&#x5907;&#x53C2;&#x6570;&#xFF0C;&#x5B8C;&#x6210;&#x4F20;&#x53C2;&#x3002;</li>
+<li>&#xFF08;&#x6C47;&#x7F16;&#xFF09;&#x4FDD;&#x5B58; caller-saved &#x5BC4;&#x5B58;&#x5668;&#x3002;</li>
+<li>&#x6267;&#x884C;&#x6C47;&#x7F16;&#x4E2D;&#x7684;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x6307;&#x4EE4;&#xFF0C;&#x5F00;&#x59CB;&#x6267;&#x884C;&#x5B50;&#x51FD;&#x6570;&#x76F4;&#x81F3;&#x5176;&#x8FD4;&#x56DE;&#x3002;</li>
+<li>&#xFF08;&#x6C47;&#x7F16;&#xFF09;&#x6062;&#x590D; caller-saved &#x5BC4;&#x5B58;&#x5668;&#x3002;</li>
+<li>&#x62FF;&#x5230;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x7684;&#x8FD4;&#x56DE;&#x503C;&#xFF0C;&#x4F5C;&#x4E3A;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x503C;&#x3002;</li>
+</ol>
+<p>&#x4E0A;&#x8FF0;&#x6B65;&#x9AA4; 1-5 &#x79F0;&#x4E3A;&#x8C03;&#x7528;&#x5E8F;&#x5217;&#xFF08;calling sequence&#xFF09;&#x3002;&#x7136;&#x800C;&#xFF0C;&#x8C03;&#x7528;&#x5E8F;&#x5217;&#x4E2D;&#x6709;&#x4E00;&#x4E9B;&#x95EE;&#x9898;&#x9700;&#x8981;&#x89E3;&#x51B3;&#xFF1A;&#x5982;&#x4F55;&#x8FDB;&#x884C;&#x53C2;&#x6570;&#x4F20;&#x9012;&#xFF1F;&#x5982;&#x4F55;&#x83B7;&#x53D6;&#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x503C;&#xFF1F;&#x8C03;&#x7528;&#x8005;&#xFF08;caller&#xFF09;&#x548C;&#x88AB;&#x8C03;&#x7528;&#x8005;&#xFF08;callee&#xFF09;&#x9700;&#x8981;&#x4FDD;&#x5B58;&#x54EA;&#x4E9B;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5982;&#x4F55;&#x4FDD;&#x5B58;&#xFF1F;&#x8C03;&#x7528;&#x8005;&#x548C;&#x88AB;&#x8C03;&#x7528;&#x8005;&#x901A;&#x5E38;&#x5BF9;&#x4EE5;&#x4E0A;&#x95EE;&#x9898;&#x7EA6;&#x5B9A;&#x89E3;&#x51B3;&#x65B9;&#x5F0F;&#xFF0C;&#x5E76;&#x540C;&#x65F6;&#x9075;&#x5B88;&#x8FD9;&#x4E9B;&#x7EA6;&#x5B9A;&#x3002;&#x8FD9;&#x4E9B;&#x8C03;&#x7528;&#x8005;&#x4E0E;&#x88AB;&#x8C03;&#x7528;&#x8005;&#x5171;&#x540C;&#x9075;&#x5B88;&#x7684;&#x7EA6;&#x5B9A;&#x79F0;&#x4E3A;<strong>&#x8C03;&#x7528;&#x7EA6;&#x5B9A;</strong>&#xFF08;calling convention&#xFF09;&#x3002;&#x8C03;&#x7528;&#x7EA6;&#x5B9A;&#x901A;&#x5E38;&#x5728;&#x6C47;&#x7F16;&#x5C42;&#x7EA7;&#x4F7F;&#x7528;&#xFF0C;&#x6C47;&#x7F16;&#x8BED;&#x8A00;&#x8BFE;&#x4E0A;&#x4E5F;&#x6709;&#x6D89;&#x53CA;&#x3002;&#x56E0;&#x4E3A;&#x6C47;&#x7F16;&#x8BED;&#x8A00;&#x662F;&#x4F4E;&#x7EA7;&#x8BED;&#x8A00;&#xFF0C;&#x7F3A;&#x4E4F;&#x5BF9;&#x51FD;&#x6570;&#x7684;&#x8BED;&#x8A00;&#x7279;&#x6027;&#x652F;&#x6301;&#xFF0C;&#x53EA;&#x6709;&#x6807;&#x53F7;&#x3001;&#x5730;&#x5740;&#x3001;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x6240;&#x4EE5;&#x9700;&#x8981;&#x8C03;&#x7528;&#x7EA6;&#x5B9A;&#xFF0C;&#x89C4;&#x5B9A;&#x5982;&#x4F55;&#x7528;&#x6C47;&#x7F16;&#x7684;&#x8BED;&#x8A00;&#x673A;&#x5236;&#x6A21;&#x62DF;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x3002;</p>
+<h3 id="&#x8C03;&#x7528;&#x7EA6;&#x5B9A;">&#x8C03;&#x7528;&#x7EA6;&#x5B9A;</h3>
+<p>&#x5B9E;&#x9A8C;&#x6D4B;&#x4F8B;&#x4E2D;&#x6709;&#x4E0E; gcc &#x7F16;&#x8BD1;&#x7684;&#x6587;&#x4EF6;&#x76F8;&#x4E92;&#x8C03;&#x7528;&#x7684;&#x8981;&#x6C42;&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x5927;&#x5BB6;&#x9700;&#x8981;&#x5B9E;&#x73B0;&#x6807;&#x51C6;&#x8C03;&#x7528;&#x7EA6;&#x5B9A;&#x3002;</p>
+<h4 id="risc-v-&#x7684;&#x6807;&#x51C6;&#x8C03;&#x7528;&#x7EA6;&#x5B9A;&#xFF08;gcc-&#x4F7F;&#x7528;&#x7684;&#x3001;&#x548C;-minidecaf-&#x76F8;&#x5173;&#x7684;&#xFF09;">RISC-V &#x7684;&#x6807;&#x51C6;&#x8C03;&#x7528;&#x7EA6;&#x5B9A;&#xFF08;gcc &#x4F7F;&#x7528;&#x7684;&#x3001;&#x548C; MiniDecaf &#x76F8;&#x5173;&#x7684;&#xFF09;</h4>
+<ol>
+<li><p>caller-saved &#x548C; callee-saved &#x5BC4;&#x5B58;&#x5668;</p>
+<p><img src="pics/reg.png" alt=""></p>
+<p>&#x4E0A;&#x8868;&#x7ED9;&#x51FA; RISC-V &#x4E2D; 32 &#x4E2A;&#x6574;&#x6570;&#x5BC4;&#x5B58;&#x5668;&#x7684;&#x5206;&#x7C7B;&#x3002;&#x6240;&#x8C13; caller-saved &#x5BC4;&#x5B58;&#x5668;&#xFF08;&#x53C8;&#x540D;&#x6613;&#x5931;&#x6027;&#x5BC4;&#x5B58;&#x5668;&#xFF09;&#xFF0C;&#x662F;&#x6307;&#x4E0D;&#x9700;&#x8981;&#x5728;&#x5404;&#x4E2A;&#x8C03;&#x7528;&#x4E4B;&#x95F4;&#x4FDD;&#x5B58;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x5982;&#x679C;&#x8C03;&#x7528;&#x8005;&#x8BA4;&#x4E3A;&#x5728;&#x88AB;&#x8C03;&#x7528;&#x51FD;&#x6570;&#x6267;&#x884C;&#x7ED3;&#x675F;&#x540E;&#x4ECD;&#x7136;&#x9700;&#x8981;&#x7528;&#x5230;&#x8FD9;&#x4E9B;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x7684;&#x503C;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x81EA;&#x884C;&#x4FDD;&#x5B58;&#x3002;&#x6240;&#x8C13; callee-saved &#x5BC4;&#x5B58;&#x5668;&#xFF08;&#x53C8;&#x540D;&#x975E;&#x6613;&#x5931;&#x6027;&#x5BC4;&#x5B58;&#x5668;&#xFF09;&#xFF0C;&#x6307;&#x8FD9;&#x4E9B;&#x5BC4;&#x5B58;&#x5668;&#x9700;&#x8981;&#x5728;&#x5404;&#x4E2A;&#x8C03;&#x7528;&#x4E4B;&#x95F4;&#x4FDD;&#x5B58;&#xFF0C;&#x8C03;&#x7528;&#x8005;&#x53EF;&#x4EE5;&#x671F;&#x671B;&#x5728;&#x88AB;&#x8C03;&#x7528;&#x51FD;&#x6570;&#x6267;&#x884C;&#x7ED3;&#x675F;&#x540E;&#xFF0C;&#x8FD9;&#x4E9B;&#x5BC4;&#x5B58;&#x5668;&#x4ECD;&#x4FDD;&#x6301;&#x539F;&#x6765;&#x7684;&#x503C;&#x3002;&#x8FD9;&#x8981;&#x6C42;&#x88AB;&#x8C03;&#x7528;&#x8005;&#xFF0C;&#x5982;&#x679C;&#x4F7F;&#x7528;&#x8FD9;&#x4E9B;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x9700;&#x8981;&#x5148;&#x8FDB;&#x884C;&#x4FDD;&#x5B58;&#xFF0C;&#x5E76;&#x5728;&#x8C03;&#x7528;&#x8FD4;&#x56DE;&#x4E4B;&#x524D;&#x6062;&#x590D;&#x8FD9;&#x4E9B; callee-saved &#x5BC4;&#x5B58;&#x5668;&#x7684;&#x503C;&#x3002;</p>
+<p>&#x5177;&#x4F53;&#x7684;&#x4FDD;&#x5B58;&#x65B9;&#x6CD5;&#x5E76;&#x4E0D;&#x9650;&#x5236;&#xFF0C;&#x4F46;&#x4E00;&#x822C;&#x90FD;&#x4F7F;&#x7528;&#x6808;&#x6765;&#x4FDD;&#x5B58;&#x3002;</p>
+</li>
+<li><p>&#x51FD;&#x6570;&#x53C2;&#x6570;&#x4EE5;&#x53CA;&#x8FD4;&#x56DE;&#x503C;&#x7684;&#x4F20;&#x9012;</p>
+<p>&#x51FD;&#x6570;&#x53C2;&#x6570;&#xFF08;32 &#x4F4D; int&#xFF09;&#x4ECE;&#x5DE6;&#x5230;&#x53F3;&#x5B58;&#x653E;&#x5728; a0 - a7 &#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#xFF0C;&#x5982;&#x679C;&#x8FD8;&#x6709;&#x5176;&#x4ED6;&#x53C2;&#x6570;&#xFF0C;&#x5219;&#x4EE5;&#x4ECE;&#x53F3;&#x5411;&#x5DE6;&#x7684;&#x987A;&#x5E8F;&#x538B;&#x6808;&#xFF0C;&#x7B2C; 9 &#x4E2A;&#x53C2;&#x6570;&#x5728;&#x6808;&#x9876;&#x4F4D;&#x7F6E;&#x3002;&#x540C;&#x5B66;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x5E26;&#x6709;&#x591A;&#x4E2A;&#x53C2;&#x6570;&#x7684;&#x51FD;&#x6570;&#x5E76;&#x8FDB;&#x884C;&#x8C03;&#x7528;&#xFF0C;&#x7136;&#x540E;&#x7528; gcc &#x7F16;&#x8BD1;&#x7A0B;&#x5E8F;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1;&#x3002;</p>
+<p>&#x8FD4;&#x56DE;&#x503C;&#xFF08;32 &#x4F4D; int&#xFF09;&#x653E;&#x5728; a0 &#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x3002;</p>
+</li>
+</ol>
+<h3 id="&#x63D0;&#x793A;">&#x63D0;&#x793A;</h3>
+<p>&#x5173;&#x4E8E;&#x6D4B;&#x8BD5;&#x6837;&#x4F8B;&#xFF1A;
+&#x6211;&#x4EEC;&#x7684;&#x6D4B;&#x8BD5;&#x811A;&#x672C;&#x4F1A;&#x5C06;&#x4F60;&#x7684;&#x7F16;&#x8BD1;&#x5668;&#x751F;&#x6210;&#x7684;&#x6C47;&#x7F16;&#x4EE3;&#x7801;&#x4E0E;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x7684;&#x8FD0;&#x884C;&#x65F6;&#x6846;&#x67B6;&#x4E00;&#x8D77;&#x901A;&#x8FC7; gcc &#x94FE;&#x63A5;&#x5F97;&#x5230;&#x53EF;&#x6267;&#x884C;&#x6587;&#x4EF6;&#xFF0C;&#x68C0;&#x67E5;&#x8FD0;&#x884C;&#x7ED3;&#x679C;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x67E5;&#x770B;&#x6D4B;&#x8BD5;&#x6587;&#x4EF6;&#x5939;&#x4E2D;&#x7684; <code>runtime.c</code>,<code>runtime.h</code>,<code>runtime.s</code> &#x6765;&#x67E5;&#x770B;&#x6211;&#x4EEC;&#x9884;&#x5B9A;&#x4E49;&#x7684;&#x51FD;&#x6570;&#x3002;</p>
+<p>C++&#x6846;&#x67B6;&#x4E2D;&#xFF1A;</p>
+<ol>
+<li><p>&#x6846;&#x67B6;&#x4E2D;&#x4F1A;&#x5728;&#x751F;&#x6210;&#x7684;&#x6C47;&#x7F16;&#x4E2D;&#x5728;&#x51FD;&#x6570;&#x540D;&#x524D;&#x9762;&#x52A0;&#x4E0A;&#x4E0B;&#x5212;&#x7EBF; <code>_</code>&#xFF0C;&#x5982;&#x679C;&#x94FE;&#x63A5;&#x65F6;&#x51FA;&#x73B0;&#x95EE;&#x9898;&#x8BF7;&#x68C0;&#x67E5;&#x662F;&#x4E0D;&#x662F;&#x4E0B;&#x5212;&#x7EBF;&#x5BFC;&#x81F4;&#x7684;&#x3002;</p>
+</li>
+<li><p>&#x7531;&#x4E8E;&#x8C03;&#x7528;&#x65F6;&#x6D89;&#x53CA;&#x5C06;&#x53C2;&#x6570;&#x653E;&#x5230;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#xFF0C;&#x5982;&#x679C;&#x539F;&#x6765;&#x7684;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x5DF2;&#x7ECF;&#x5206;&#x914D;&#x7ED9;&#x4E86;&#x5176;&#x4ED6;&#x865A;&#x62DF;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x90A3;&#x4E48;&#x4F60;&#x9700;&#x8981;&#x5C06;&#x5BC4;&#x5B58;&#x5668;&#x5148;&#x4FDD;&#x5B58;&#xFF08;spill&#xFF09;&#x5230;&#x6808;&#x4E0A;&#xFF0C;&#x4F46;&#x662F;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x4F60;&#x9700;&#x8981;&#x5C0F;&#x5FC3;&#x5730;&#x5904;&#x7406;Liveout&#x96C6;&#x5408;&#xFF0C;&#x4EE5;&#x4E0B;&#x9762;&#x4E09;&#x5730;&#x5740;&#x7801;&#x4E3A;&#x4F8B;:</p>
+<pre><code class="lang-assembly"> func:
+     _T2 = ADD _T0, _T1
+     return _T2        # &#x53C2;&#x6570; x &#x548C; y &#x5206;&#x522B;&#x5BF9;&#x5E94; _T0, _T1
+ main:
+     _T0 = 1
+     PARAM _T0         # &#x5C06; _T0 &#x7684;&#x503C;&#x4F5C;&#x4E3A;&#x53C2;&#x6570; x &#x653E;&#x5165;a0&#x5BC4;&#x5B58;&#x5668;
+     _T1 = 2
+     PARAM _T1         # &#x5C06; _T1 &#x7684;&#x503C;&#x4F5C;&#x4E3A;&#x53C2;&#x6570; y &#x653E;&#x5165;a1&#x5BC4;&#x5B58;&#x5668;
+     _T3 = CALL func   # &#x8C03;&#x7528;&#x51FD;&#x6570;
+     return _T3
+</code></pre>
+<p> &#x5728;PARAM _T0&#x8FD9;&#x4E00;&#x884C;&#xFF0C;&#x6211;&#x4EEC;&#x8981;&#x5C06;&#x865A;&#x62DF;&#x5BC4;&#x5B58;&#x5668;T0&#x4F5C;&#x4E3A;&#x53C2;&#x6570;x&#x653E;&#x5165;&#x7269;&#x7406;&#x5BC4;&#x5B58;&#x5668;a0&#xFF0C;&#x5047;&#x8BBE;&#x6B64;&#x65F6;T0&#x5728;&#x6808;&#x4E2D;&#xFF0C;&#x5E76;&#x4E14;&#x7269;&#x7406;&#x5BC4;&#x5B58;&#x5668;a0&#x4E2D;&#x5B58;&#x653E;&#x4E86;&#x53E6;&#x4E00;&#x4E2A;&#x865A;&#x62DF;&#x5BC4;&#x5B58;&#x5668;T2&#xFF0C;&#x90A3;&#x4E48;&#x8981;&#x5148;&#x5C06;T2 spill&#x5230;&#x6808;&#x4E2D;&#x3002;
+ &#x5373;&#x6B64;&#x65F6;&#x9700;&#x8981;&#xFF1A;</p>
+<ol>
+<li>&#x5C06;T2&#x653E;&#x5165;&#x6808;&#x4E2D;&#xFF08;&#x5373;&#xFF1A;spill T2&#xFF09;</li>
+<li><p>&#x4ECE;&#x6808;&#x4E2D;&#x5C06;T0&#x53D6;&#x51FA;&#x653E;&#x5165;a0&#x5BC4;&#x5B58;&#x5668;&#x4E2D;</p>
+<p>&#x4F46;&#x662F;&#x6211;&#x4EEC;&#x7684;&#x6846;&#x67B6;&#x5728;spill&#x4E00;&#x4E2A;&#x5BC4;&#x5B58;&#x5668;&#x65F6;&#x4F1A;&#x8003;&#x8651;&#x5F53;&#x524D;&#x4F4D;&#x7F6E;&#x7684;liveout&#x96C6;&#x5408;&#xFF0C;&#x5047;&#x8BBE;T0&#x5728;&#x6B64;&#x540E;&#x4E0D;&#x518D;&#x88AB;&#x7528;&#x5230;&#xFF0C;&#x90A3;&#x4E48;T0&#x5C31;&#x4E0D;&#x5728;&#x5F53;&#x524D;&#x4F4D;&#x7F6E;&#x7684;liveout&#x96C6;&#x5408;&#x4E2D;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x5728;spill&#x5BC4;&#x5B58;&#x5668;&#x65F6;T0&#x53EF;&#x4EE5;&#x88AB;&#x8986;&#x76D6;&#x6389;&#xFF0C;&#x8FD9;&#x53EF;&#x80FD;&#x5BFC;&#x81F4;T2&#x88AB;spill&#x5230;&#x4E86;T0&#x6240;&#x5728;&#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x8986;&#x76D6;&#x4E86;T0&#x3002;</p>
+<pre><code class="lang-c++"><span class="hljs-keyword">void</span> RiscvDesc::spillReg(<span class="hljs-keyword">int</span> i, LiveSet *live) {
+ <span class="hljs-built_in">std</span>::<span class="hljs-built_in">ostringstream</span> oss;
+ Temp v = _reg[i]-&gt;var;
+ <span class="hljs-keyword">if</span> ((<span class="hljs-literal">NULL</span> != v) &amp;&amp; _reg[i]-&gt;dirty &amp;&amp; live-&gt;contains(v)) {
+     RiscvReg *base = _reg[RiscvReg::FP];
+     <span class="hljs-keyword">if</span> (!v-&gt;is_offset_fixed) {
+         _frame-&gt;getSlotToWrite(v, live);   <span class="hljs-comment">// &#x6B64;&#x5904;&#x9009;&#x62E9;&#x4E86;&#x4E00;&#x4E2A;&#x6808;&#x4E0A;&#x7684;&#x4F4D;&#x7F6E;&#x7528;&#x4E8E;&#x4FDD;&#x5B58;&#x5BC4;&#x5B58;&#x5668;</span>
+     }
+     ... ...
+ }
+ ... ...
+}
+</code></pre>
+<p>&#x56E0;&#x6B64;&#x5982;&#x679C;&#x4F60;&#x9047;&#x5230;&#x9700;&#x8981;&#x5C06;&#x53C2;&#x6570;&#x653E;&#x5230;&#x67D0;&#x4E2A;&#x7269;&#x7406;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x5E76;&#x4E14;&#x539F;&#x6765;&#x7269;&#x7406;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x542B;&#x6709;&#x5176;&#x4ED6;&#x865A;&#x62DF;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x90A3;&#x4E48;&#x4F60;&#x53EF;&#x4EE5;&#x6309;&#x7167;&#x4E0B;&#x9762;&#x7684;&#x65B9;&#x5F0F;&#x505A;&#xFF1A;</p>
+<pre><code class="lang-c++"><span class="hljs-keyword">void</span> RiscvDesc::setRegParam(Tac *t, <span class="hljs-keyword">int</span> cnt) {
+ <span class="hljs-comment">// &#x6B64;&#x5904;&#x52A9;&#x6559;&#x4F7F;&#x7528;Tac&#x7684;op0&#x6765;&#x5B58;&#x653E;&#x9700;&#x8981;&#x5F53;&#x4F5C;&#x53C2;&#x6570;&#x7684;&#x865A;&#x62DF;&#x5BC4;&#x5B58;&#x5668;</span>
+ <span class="hljs-comment">// &#x5148;&#x5C06;op0&#x52A0;&#x5165;&#x5F53;&#x524D;&#x7684;LiveOut&#x96C6;&#x5408;&#xFF0C;&#x8FD9;&#x53EF;&#x4EE5;&#x4FDD;&#x8BC1;spillReg&#x65F6;&#x5019;&#x4E0D;&#x4F1A;&#x5C06;op0&#x8986;&#x76D6;</span>
+ t-&gt;LiveOut-&gt;add(t-&gt;op0.var);
+ spillReg(RiscvReg::A0 + cnt, t-&gt;LiveOut);
+ <span class="hljs-keyword">int</span> i = lookupReg(t-&gt;op0.var);
+ <span class="hljs-keyword">if</span>(i &lt; <span class="hljs-number">0</span>) {
+     <span class="hljs-comment">// &#x5904;&#x7406;&#x5728;&#x6808;&#x4E0A;&#x7684;&#x60C5;&#x51B5;</span>
+ } <span class="hljs-keyword">else</span> {
+     <span class="hljs-comment">// &#x5904;&#x7406;&#x5728;&#x5176;&#x4ED6;&#x5BC4;&#x5B58;&#x5668;&#x4E2D;&#x7684;&#x60C5;&#x51B5;</span>
+ }
+}
+</code></pre>
+</li>
+</ol>
+</li>
+</ol>
+<h1 id="&#x601D;&#x8003;&#x9898;">&#x601D;&#x8003;&#x9898;</h1>
+<ol>
+<li>MiniDecaf &#x7684;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x65F6;&#x53C2;&#x6570;&#x6C42;&#x503C;&#x7684;&#x987A;&#x5E8F;&#x662F;&#x672A;&#x5B9A;&#x4E49;&#x884C;&#x4E3A;&#x3002;&#x8BD5;&#x5199;&#x51FA;&#x4E00;&#x6BB5; MiniDecaf &#x4EE3;&#x7801;&#xFF0C;&#x4F7F;&#x5F97;&#x4E0D;&#x540C;&#x7684;&#x53C2;&#x6570;&#x6C42;&#x503C;&#x987A;&#x5E8F;&#x4F1A;&#x5BFC;&#x81F4;&#x4E0D;&#x540C;&#x7684;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;&#x3002;</li>
+<li>&#x4E3A;&#x4F55; RISC-V &#x6807;&#x51C6;&#x8C03;&#x7528;&#x7EA6;&#x5B9A;&#x4E2D;&#x8981;&#x5F15;&#x5165; callee-saved &#x548C; caller-saved &#x4E24;&#x7C7B;&#x5BC4;&#x5B58;&#x5668;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x8981;&#x6C42;&#x6240;&#x6709;&#x5BC4;&#x5B58;&#x5668;&#x5B8C;&#x5168;&#x7531; caller/callee &#x4E2D;&#x7684;&#x4E00;&#x65B9;&#x4FDD;&#x5B58;&#xFF1F;&#x4E3A;&#x4F55;&#x4FDD;&#x5B58;&#x8FD4;&#x56DE;&#x5730;&#x5740;&#x7684; ra &#x5BC4;&#x5B58;&#x5668;&#x662F; caller-saved &#x5BC4;&#x5B58;&#x5668;&#xFF1F;</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="intro.html" class="navigation navigation-prev " aria-label="Previous page: 任务概述">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="spec.html" class="navigation navigation-next " aria-label="Next page: 规范">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"通过例子学习","level":"8.1.2","depth":2,"next":{"title":"规范","level":"8.1.3","depth":2,"path":"docs/step9/spec.md","ref":"docs/step9/spec.md","articles":[]},"previous":{"title":"任务概述","level":"8.1.1","depth":2,"path":"docs/step9/intro.md","ref":"docs/step9/intro.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["hide-element","chapter-fold","katex","alerts","emphasize","mermaid-gb3","codeblock-label","code","search-pro","click-reveal","expandable-chapters-interactive","localized-footer","intopic-toc"],"pluginsConfig":{"chapter-fold":{},"emphasize":{},"intopic-toc":{"isCollapsed":true,"isScrollspyActive":true,"label":"In this article","maxDepth":6,"mode":"nested","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6","visible":true},"codeblock-label":{},"search-pro":{},"search":{},"localized-footer":{"filename":"gitalk.html","hline":"true"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"hide-element":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":1},"click-reveal":{},"highlight":{},"mermaid-gb3":{},"expandable-chapters-interactive":{},"alerts":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"docs/step9/example.md","mtime":"2023-03-20T07:41:26.985Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-03-20T07:42:15.687Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-click-reveal/click_reveal.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-interactive/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-intopic-toc/anchor.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-intopic-toc/gumshoe.polyfills.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-intopic-toc/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    <script src="../../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+
